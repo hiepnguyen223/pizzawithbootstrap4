@@ -1,0 +1,99 @@
+body {
+    font-family: 'Amatic SC', cursive!important;
+}
+
+.font-size-p {
+    font-size: 1.5rem;
+}
+
+.grayscale-min {
+    filter: grayscale(50%);
+}
+
+.navbar {
+    opacity: 0.6;
+}
+
+.navbar:hover {
+    background-color: black!important;
+    opacity: 1!important;
+}
+
+.nav-item:hover {
+    background-color:gray;
+    
+}
+
+.nav-item:hover a{
+    color: black!important;
+}
+
+.nav-link {
+    font-size: 24px;
+}
+
+.slider {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/pizza.jpg);
+    min-height: 90vh;
+}
+
+.slogan {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+.slogan h1 {
+   font-size: 100px; 
+}
+
+.time-open {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+}
+
+.menu-list {
+    max-width: 980px;
+}
+
+.badge {
+    font-size: 2rem;
+}
+
+.about-container {
+    background-color: #8b5f5b;
+}
+
+.about {
+    max-width: 980px;
+    margin: auto;
+}
+.chef-img img {
+    height: 100px;
+}
+
+.map-image {
+    width: 100%;
+}
+
+.contact-container {
+    background-color: #6c7a81;
+}
+
+.contact {
+    max-width: 980px;
+}
+
+.restaurant-img {
+    width: 100%;
+}
+
+/*responsive */
+

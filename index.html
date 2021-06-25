@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand bg-dark p-0 fixed-top">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link text-white">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link text-white">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link text-white">Contact</a>
+                </li>
+            </ul>
+          
+          </nav>
+        <div class="slider justify-content-center grayscale-min">
+            <div class="slogan">
+                <h1 class="text-white">
+                    thin
+                    <br>
+                    CRUST PIZZA</h1>
+                    <a href="#menu" class="btn btn-dark btn-lg">Let me see the menu</a>
+            </div>
+            <div class="time-open bg-dark text-white p-2">
+                Open from 10am to 12pm
+            </div>
+        </div> 
+
+        <!--Menu-->
+        <div class="menu bg-dark text-white p-5" id="menu">
+            <h1 class="text-center mb-5">the menu</h1>
+            <div class="menu-list m-auto border border-light bg-light">
+
+                <ul class="nav nav-pills bg-dark nav-justified" id="food-menu">
+                    <li class="nav-item">
+                        <a href="#pizza" class="nav-link active text-white bg-danger" data-toggle="pill">pizza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#salads" class="nav-link text-white" data-toggle="pill">Salads</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#starter" class="nav-link text-white" data-toggle="pill">starter</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane container active" id="pizza">
+                        <ul class="list-unstyled">
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4 border-bottom">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold">
+                                        margherita
+                                    </h2>
+                                    <h2 class="text-black-50">
+                                        Fresh tomatoes, fresh mozzarella, fresh basil
+                                    </h2>
+                                </div>
+                                <span class="badge badge-dark ">$12.50</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4 border-bottom">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold"> Formaggio</h2>
+                                    <h2 class="text-black-50">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</h2>
+                                </div>
+                                <span class="badge badge-dark ">$15.50</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4 border-bottom">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold"> Chicken</h2>
+                                    <h2 class="text-black-50">Fresh tomatoes, mozzarella, chicken, onions</h2>
+                                </div>
+                                <span class="badge badge-dark ">$17.00</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4 border-bottom">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold"> Pineapple'o'clock</h2>
+                                    <h2 class="text-black-50">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</h2>
+                                </div>
+                                <span class="badge badge-dark ">$16.50</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4 border-bottom">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold">Meat Town <span class="badge badge-danger">hot!</span></h2>
+                                    <h2 class="text-black-50">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</h2>
+                                </div>
+                                <span class="badge badge-dark ">$20.00</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold">Parma <span class="badge badge-secondary">New</span> </h2>
+                                    <h2 class="text-black-50">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</h2>
+                                </div>
+                                <span class="badge badge-dark ">$21.50</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-pane container fade" id="salads">
+                        <ul class="list-unstyled">
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4 border-bottom">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold">
+                                        Lasagna <span class="badge badge-secondary">popular</span>
+                                    </h2>
+                                    <h2 class="text-black-50">
+                                        Special sauce, mozzarella, parmesan, ground beef
+                                    </h2>
+                                </div>
+                                <span class="badge badge-dark ">$13.50</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4 border-bottom">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold"> Spaghetti Classica</h2>
+                                    <h2 class="text-black-50">Fresh tomatoes, onions, ground beef</h2>
+                                </div>
+                                <span class="badge badge-dark ">$11.00</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4 border-bottom">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold"> Ravioli</h2>
+                                    <h2 class="text-black-50">Ravioli filled with cheese</h2>
+                                </div>
+                                <span class="badge badge-dark ">$14.50</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold"> Seafood pasta</h2>
+                                    <h2 class="text-black-50">Salmon, shrimp, lobster, garlic</h2>
+                                </div>
+                                <span class="badge badge-dark ">$15.50</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-pane container fade" id="starter">
+                        <ul class="list-unstyled">
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4 border-bottom">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold">
+                                        Today's Soup <span class="badge badge-secondary">seasonal</span>
+                                    </h2> 
+                                    <h2 class="text-black-50">
+                                        Ask the waiter
+                                    </h2>
+                                </div>
+                                <span class="badge badge-dark ">$5.50</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4 border-bottom">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold"> Bruschetta</h2>
+                                    <h2 class="text-black-50">Bread with pesto, tomatoes, onion, garlic</h2>
+                                </div>
+                                <span class="badge badge-dark ">$8.50</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4 border-bottom">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold"> Garlic bread</h2>
+                                    <h2 class="text-black-50">Grilled ciabatta, garlic butter, onions</h2>
+                                </div>
+                                <span class="badge badge-dark ">$9.50</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pt-4 pb-4">
+                                <div class="food-name">
+                                    <h2 class="text-dark font-weight-bold"> Tomozzarella</h2>
+                                    <h2 class="text-black-50">Tomatoes and mozzarella</h2>
+                                </div>
+                                <span class="badge badge-dark ">$10.50</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End: Menu-->
+
+        <!--About-->
+
+        <div class="about-container text-white p-5" id="about">
+            
+            <div class="about">
+                <h1 class="text-center mb-5 ">about</h1>
+                <p class = "font-size-p">The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="chef-info d-flex justify-content-between align-items-center">
+                    <div class="chef-about font-size-p">
+                        <strong>
+                            The Chef
+                        </strong>
+                        ? Mr. Italiano himselfChef
+                        <br>
+                        We are proud of our interiors.
+                    </div>
+                    <div class="chef-img">
+                        <img src="https://www.w3schools.com/w3images/chef.jpg" class="rounded-circle" alt="Chef Image">
+                    </div>
+                </div>
+                <img src="https://www.w3schools.com/w3images/onepage_restaurant.jpg" alt="Restaurant Image" class="restaurant-img mt-4 mb-4">
+                <div class="opening-hours">
+                    <h2 class="font-weight-bolder">Opening Hours</h2>
+                    <div class="row">
+                        <div class="col-sm font-size-p">
+                            Mon & Tue CLOSED
+                            <br>
+                            Wednesday 10.00 - 24.00
+                            <br>
+                            Thursday 10:00 - 24:00
+                        </div>
+                        <div class="col-sm font-size-p">
+                            Friday 10:00 - 12:00
+                            <br>
+                            Saturday 10:00 - 23:00
+                            <br>
+                            Sunday Closed
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--End: About-->
+        <img src="https://www.w3schools.com/w3images/map.jpg" alt="Map Image" class="map-image">
+        <!--Begin: Contact-->
+
+        <div class="contact-container p-5 text-white" id="contact">
+            <div class="contact m-auto">
+                <h1 class="text-center mb-5">Contact</h1>
+                <p class="font-size-p">Find us at some address at some place or call us at 05050515-122330
+                <br>
+                <span class="bg-dark p-1">FYI!</span> 
+                We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+                <h2><strong>Reserve</strong> a table, ask for today's special or just send us a message:</h2>
+                <form action="">
+                    <input type="text" placeholder="Name" class="form-control pt-4 pb-4 mb-3" required>
+                    <input type="number" placeholder="how many people" class="form-control pt-4 pb-4 mb-3" required>
+                    <input type="datetime-local" placeholder="Date and time" class="form-control pt-4 pb-4 mb-3" value="2020-11-16T20:00" required>
+                    <input type="text" placeholder="message \ special requirements" class="form-control pt-4 pb-4 mb-3" required>
+                    <button type="submit" class="btn btn-light btn-block">send message</button>
+                </form>
+            
+            
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let menuElements = document.querySelectorAll('#food-menu a')
+        for(let menuElement of menuElements) {
+            menuElement.onclick = function (e) {
+                document.querySelector('#food-menu .bg-danger').classList.remove('bg-danger');
+                e.target.classList.add('bg-danger');
+            }
+        }
+    </script>
+</body>
+
+</html>
